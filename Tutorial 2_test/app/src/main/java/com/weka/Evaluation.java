@@ -28,7 +28,7 @@ import weka.classifiers.Sourcable;
 import weka.classifiers.UpdateableClassifier;
 import weka.classifiers.evaluation.NominalPrediction;
 import weka.classifiers.evaluation.ThresholdCurve;
-import weka.classifiers.pmml.consumer.PMMLClassifier;
+// import weka.classifiers.pmml.consumer.PMMLClassifier;
 import weka.classifiers.xml.XMLClassifier;
 import weka.core.Drawable;
 import weka.core.FastVector;
@@ -44,8 +44,8 @@ import weka.core.Utils;
 import weka.core.Version;
 import weka.core.converters.ConverterUtils.DataSink;
 import weka.core.converters.ConverterUtils.DataSource;
-import weka.core.pmml.PMMLFactory;
-import weka.core.pmml.PMMLModel;
+// import weka.core.pmml.PMMLFactory;
+// import weka.core.pmml.PMMLModel;
 import weka.core.xml.KOML;
 import weka.core.xml.XMLOptions;
 import weka.core.xml.XMLSerialization;
@@ -781,7 +781,7 @@ public class Evaluation
       if (tmpO.endsWith(".xml")) {
 	// try to load file as PMML first
 	boolean success = false;
-	try {
+	/* try {
 	  PMMLModel pmmlModel = PMMLFactory.getPMMLModel(tmpO);
 	  if (pmmlModel instanceof PMMLClassifier) {
 	    classifier = ((PMMLClassifier)pmmlModel);
@@ -789,7 +789,7 @@ public class Evaluation
 	  }
 	} catch (IllegalArgumentException ex) {
 	  success = false;
-	}
+	} */
 	if (!success) {
 	  // load options from serialized data  ('-l' is automatically erased!)
 	  XMLClassifier xmlserial = new XMLClassifier();

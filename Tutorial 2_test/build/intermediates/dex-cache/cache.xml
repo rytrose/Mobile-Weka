@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Tutorial 2_test\app\libs\libsvm.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5a763e981994e688c5a764630277a4a41ff980f6">
+        <dex dex="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Tutorial 2_test\app\build\intermediates\pre-dexed\debug\libsvm-130a309d23f9cc1a4016693267ef64e8cd0e8289.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Tutorial 2_test\app\libs\weka-3.6.6-android.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d5bef25d824a9a782e887bf2748df5a6e6788b1f">
+        <dex dex="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Tutorial 2_test\app\build\intermediates\pre-dexed\debug\weka-3.6.6-android-641d670be3c8dc7d99cc47ae7884f0740e4ddafd.jar" />
+    </item>
+
+</items>

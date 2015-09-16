@@ -259,7 +259,7 @@ public class BuildAssociate extends TabActivity{
     		associate = new weka.associations.FPGrowth();
     		break;
     	case Tertius:
-    		associate = new weka.associations.Tertius();
+    		// associate = new weka.associations.Tertius();
     		break;
     	}
     	try {
