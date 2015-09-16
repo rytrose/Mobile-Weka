@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Ryan/Documents/GitHub/Assignment-2/Tutorial%202_test/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Ryan/Documents/GitHub/EECS397_Assignment_2/Tutorial%202_test/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="white">#ffffff</color>
-    <!-- From: file:/C:/Users/Ryan/Documents/GitHub/Assignment-2/Tutorial%202_test/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Ryan/Documents/GitHub/EECS397_Assignment_2/Tutorial%202_test/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="KEY_TYPE">TYPE</string>
     <string name="app_name">Mobie Weka</string>
