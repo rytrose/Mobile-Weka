@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/desk"
+    >
+
+	</LinearLayout>
+<!-- From: file:/C:/Users/Ryan/Documents/GitHub/Assignment-2/Tutorial%202_test/app/src/main/res/layout/main.xml -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/desk2">
+<TextView 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:layout_marginTop="50px"
+	android:text="@string/app_name"
+	android:textSize="30px"
+	android:textStyle="bold"/>
+<Button 
+	android:layout_marginTop="40px"
+	android:id="@+id/classifier_button"
+	android:layout_width="200px"
+	android:layout_height="wrap_content"
+	android:text="@string/classifier_text"
+	android:layout_gravity="center"/>   
+<Button 
+	android:layout_marginTop="30px"
+	android:id="@+id/clusterer_button"
+	android:layout_width="200px"
+	android:layout_height="wrap_content"
+	android:text="@string/clusterer_text"
+	android:layout_gravity="center"/>   
+<Button 
+	android:layout_marginTop="30px"
+	android:id="@+id/associate_button"
+	android:layout_width="200px"
+	android:layout_height="wrap_content"
+	android:text="Assoicate"
+	android:layout_gravity="center"/> 
+<Button 
+	android:layout_marginTop="30px"
+	android:id="@+id/exit_button"
+	android:layout_width="200px"
+	android:layout_height="wrap_content"
+	android:text="@string/exit"
+	android:layout_gravity="center"/>   
+</LinearLayout>

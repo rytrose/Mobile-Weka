@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Ryan/Documents/GitHub/Assignment-2/Tutorial%202_test/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/C:/Users/Ryan/Documents/GitHub/Assignment-2/Tutorial%202_test/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="KEY_TYPE">TYPE</string>
+    <string name="app_name">Mobie Weka</string>
+    <string name="chooseVar">Choose classifier Var</string>
+    <string name="classifier_testfile">Choose the file(arff) for classifier to test</string>
+    <string name="classifier_text">Classifier</string>
+    <string name="classifier_trainfile">Choose the file(arff) for classifier to train</string>
+    <string name="clusterer_file">Choose the file(arff) for clusterer</string>
+    <string name="clusterer_text">Clusterer</string>
+    <string name="exit">Exit</string>
+    <string name="wrong_file_warn">Sorry, you do not choose right file, please choose arff file!</string>
+</resources>

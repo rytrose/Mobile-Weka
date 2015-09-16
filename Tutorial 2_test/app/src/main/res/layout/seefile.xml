@@ -1,0 +1,21 @@
+<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:id="@+id/seefile_layout"
+	  android:orientation="vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"> 
+	   <ScrollView 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:scrollbarStyle="outsideOverlay"> 
+		<HorizontalScrollView 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent">
+		  <TextView 
+		  	android:id="@+id/file_text"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:text=""/>
+	    </HorizontalScrollView>
+	   </ScrollView>
+   </LinearLayout>

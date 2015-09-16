@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout
+		android:id="@+id/chooseclusterer_layout"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"> 
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"> 
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Choose Clusterer" 
+				android:textSize="20px"/>
+			<Spinner  
+				android:id="@+id/spinner_3"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="false"/>
+			<RelativeLayout
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TextView
+					android:id="@+id/clusterer_showfile"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="File" 
+					android:textSize="20px"/>
+				<Button
+					android:id="@+id/choosefile"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:text="Change File"
+					style="?android:attr/buttonStyleSmall"/>
+				<Button
+					android:id="@+id/filedetail"
+					android:layout_width="60px"
+					android:layout_height="wrap_content"
+					android:layout_toLeftOf="@id/choosefile"
+					android:text="Detail"
+					style="?android:attr/buttonStyleSmall"/>
+				<TextView
+					android:id="@+id/clusterer_file"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="20px"
+					android:text="ddd" 
+					android:layout_below="@id/clusterer_showfile"
+					/>
+			</RelativeLayout>	   
+			<Button 
+				android:layout_marginTop="30px"
+				android:id="@+id/start1"
+				android:layout_width="200px"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:text="Start"/>
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="30px"
+			android:background="#808080"> 
+			<ProgressBar 
+				android:id="@+id/ProgressBar1"   
+				android:layout_width="30px" 
+				android:layout_height="30px"/>
+			<TextView 
+				android:id="@+id/show_state1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom"
+				android:text=""
+				android:textSize="20px"/>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:id="@+id/clusterer_result"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"> 
+		<ScrollView 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:scrollbarStyle="outsideOverlay"> 
+			<HorizontalScrollView 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent">
+				<TextView 
+					android:id="@+id/clustererresult_text"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:text=""/>
+			</HorizontalScrollView>
+		</ScrollView>
+	</LinearLayout>
+    
+</FrameLayout>
+
+

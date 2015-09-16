@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name">Mobie Weka</string>
+    <string name = "classifier_text">Classifier</string>
+    <string name = "clusterer_text">Clusterer</string>
+    <string name = "chooseVar">Choose classifier Var</string>
+    <string name = "exit">Exit</string>
+    <string name = "KEY_TYPE">TYPE</string>
+    <string name = "classifier_trainfile">Choose the file(arff) for classifier to train</string>
+    <string name = "classifier_testfile">Choose the file(arff) for classifier to test</string>
+    <string name = "clusterer_file">Choose the file(arff) for clusterer</string>
+    <string name = "wrong_file_warn">Sorry, you do not choose right file, please choose arff file!</string>
+</resources>
