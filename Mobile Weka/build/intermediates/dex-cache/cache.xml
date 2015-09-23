@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Tutorial 2_test\app\libs\libsvm.jar"
+        jar="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Mobile Weka\app\libs\libsvm.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="5a763e981994e688c5a764630277a4a41ff980f6">
-        <dex dex="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Tutorial 2_test\app\build\intermediates\pre-dexed\debug\libsvm-130a309d23f9cc1a4016693267ef64e8cd0e8289.jar" />
+        <dex dex="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Mobile Weka\app\build\intermediates\pre-dexed\debug\libsvm-ead10ed81371c0aca9897c23dc337980b7a849fc.jar" />
     </item>
     <item
-        jar="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Tutorial 2_test\app\libs\weka-3.6.6-android.jar"
+        jar="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Mobile Weka\app\libs\weka-3.6.6-android.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="d5bef25d824a9a782e887bf2748df5a6e6788b1f">
-        <dex dex="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Tutorial 2_test\app\build\intermediates\pre-dexed\debug\weka-3.6.6-android-641d670be3c8dc7d99cc47ae7884f0740e4ddafd.jar" />
+        <dex dex="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Mobile Weka\app\build\intermediates\pre-dexed\debug\weka-3.6.6-android-c5e81dc6f7846c1f2af5913f929581a9f4538df4.jar" />
     </item>
 
 </items>

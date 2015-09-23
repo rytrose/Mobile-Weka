@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Tutorial 2_test\app\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Tutorial 2_test\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Mobile Weka\app\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\Ryan\Documents\GitHub\EECS397_Assignment_2\Mobile Weka\app\src\debug\assets"/></dataSet></merger>
